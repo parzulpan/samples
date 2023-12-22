@@ -19,3 +19,9 @@ void main(List<String> args) {
 
   // generators
 }
+
+var _nobleGases = {};
+
+bool isNoble(int atomicNumber) {
+  return _nobleGases[atomicNumber] != null;
+}
