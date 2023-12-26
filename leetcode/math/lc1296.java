@@ -5,14 +5,14 @@ import java.util.List;
 
 public class lc1296 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution1296 solution = new Solution1296();
         List<Integer> ans1 = solution.numOfBurgers(16, 7);
         System.out.println(ans1);
 
     }
 }
 
-class Solution {
+class Solution1296 {
     public List<Integer> numOfBurgers(int tomatoSlices, int cheeseSlices) {
         if (tomatoSlices % 2 != 0 || tomatoSlices < cheeseSlices * 2 || cheeseSlices * 4 < tomatoSlices) {
             return new ArrayList<>();

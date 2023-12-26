@@ -12,6 +12,13 @@
             "projectName": "leetcode_3989f105"
         },
         {
+            "type": "java",
+            "name": "lc2866",
+            "request": "launch",
+            "mainClass": "math.lc2866",
+            "projectName": "leetcode_3989f105"
+        },
+        {
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart"
