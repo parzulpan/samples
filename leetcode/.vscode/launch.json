@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lc2660",
+            "request": "launch",
+            "mainClass": "simulate.lc2660",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
             "name": "lc1296",
             "request": "launch",
             "mainClass": "math.lc1296",
