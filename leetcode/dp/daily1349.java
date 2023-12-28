@@ -1,6 +1,6 @@
 package dp;
 
-public class lc1349 {
+public class daily1349 {
     public static void main(String[] args) {
 
     }

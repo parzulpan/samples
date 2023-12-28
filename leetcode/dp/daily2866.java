@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Deque;
 import java.util.List;
 
-public class lc2866 {
+public class daily2866 {
     public static void main(String[] args) {
         Solution2866 solution = new Solution2866();
 

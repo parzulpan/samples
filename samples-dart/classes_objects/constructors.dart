@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main(List<String> args) {
   // initializing formal parameters
   Point p = Point(1, 2);

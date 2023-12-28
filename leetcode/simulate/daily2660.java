@@ -1,6 +1,6 @@
 package simulate;
 
-public class lc2660 {
+public class daily2660 {
     public static void main(String[] args) {
         Solution2660 solution = new Solution2660();
 

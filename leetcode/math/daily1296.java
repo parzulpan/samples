@@ -3,7 +3,7 @@ package math;
 import java.util.ArrayList;
 import java.util.List;
 
-public class lc1296 {
+public class daily1296 {
     public static void main(String[] args) {
         Solution1296 solution = new Solution1296();
         List<Integer> ans1 = solution.numOfBurgers(16, 7);

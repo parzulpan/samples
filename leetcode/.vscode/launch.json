@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "daily2660",
+            "request": "launch",
+            "mainClass": "simulate.daily2660",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "lc2735",
+            "request": "launch",
+            "mainClass": "enumeration.lc2735",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
             "name": "lc2660",
             "request": "launch",
             "mainClass": "simulate.lc2660",
