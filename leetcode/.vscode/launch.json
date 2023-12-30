@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "daily1349",
+            "request": "launch",
+            "mainClass": "dp.daily1349",
+            "projectName": "leetcode_57a742cc"
+        },
+        {
+            "type": "java",
+            "name": "daily1185",
+            "request": "launch",
+            "mainClass": "math.daily1185",
+            "projectName": "leetcode_57a742cc"
+        },
+        {
+            "type": "java",
             "name": "daily2706",
             "request": "launch",
             "mainClass": "array.daily2706",
