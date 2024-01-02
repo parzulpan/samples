@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "daily466",
+            "request": "launch",
+            "mainClass": "dp.daily466",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
             "name": "daily1599",
             "request": "launch",
             "mainClass": "simulate.daily1599",
