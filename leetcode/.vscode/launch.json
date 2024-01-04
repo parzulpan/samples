@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "daily2397",
+            "request": "launch",
+            "mainClass": "enumeration.daily2397",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily2487",
+            "request": "launch",
+            "mainClass": "monotone_stack.daily2487",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
             "name": "daily466",
             "request": "launch",
             "mainClass": "dp.daily466",
