@@ -16,6 +16,9 @@ public class ListNode {
         this.next = next;
     }
 
+    /**
+     * 用数组初始化一个单链表
+     */
     public static ListNode init(int[] arr) {
         if (arr.length == 0) {
             return null;
@@ -33,14 +36,14 @@ public class ListNode {
     }
 
     /**
-     * @return the val
+     * 获取值
      */
     public int getVal() {
         return val;
     }
 
     /**
-     * @return the next
+     * 获取下一个节点
      */
     public ListNode getNext() {
         return next;
