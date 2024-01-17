@@ -29,7 +29,7 @@ mixin Utilities {
   }
 }
 
-// 另一个 =Mixin，提供日志功能
+// 另一个   Mixin，提供日志功能
 mixin Logger {
   void log(String msg) {
     print('Log: $msg');
