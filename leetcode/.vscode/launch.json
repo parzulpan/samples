@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "daily410",
+            "request": "launch",
+            "mainClass": "binary_search.daily410",
+            "projectName": "leetcode_57a742cc"
+        },
+        {
+            "type": "java",
             "name": "daily2171",
             "request": "launch",
             "mainClass": "enumeration.daily2171",
