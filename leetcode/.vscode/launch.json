@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testtimezone",
+            "request": "launch",
+            "mainClass": "test_java.testtimezone",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily2765",
+            "request": "launch",
+            "mainClass": "enumeration.daily2765",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "testtimezone",
+            "request": "launch",
+            "mainClass": "test.testtimezone",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "testab",
+            "request": "launch",
+            "mainClass": "test.testab",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily670",
+            "request": "launch",
+            "mainClass": "greedy.daily670",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
             "name": "daily2171",
             "request": "launch",
             "mainClass": "enumeration.daily2171",
