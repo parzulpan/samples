@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "daily2859",
+            "request": "launch",
+            "mainClass": "bit.daily2859",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
             "name": "testtimezone",
             "request": "launch",
             "mainClass": "test_java.testtimezone",
