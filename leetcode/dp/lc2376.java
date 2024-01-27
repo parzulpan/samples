@@ -9,5 +9,6 @@ public class lc2376 {
 class Solution2376 {
     public int countSpecialNumbers(int n) {
 
+        return 0;
     }
 }
