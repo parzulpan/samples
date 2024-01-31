@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "daily2670",
+            "request": "launch",
+            "mainClass": "hash.daily2670",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
             "name": "TimeZoneMapBuilder",
             "request": "launch",
             "mainClass": "test_java.TimeZoneMapBuilder",
