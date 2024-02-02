@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "daily1686",
+            "request": "launch",
+            "mainClass": "greedy.daily1686",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "dailylcp24",
+            "request": "launch",
+            "mainClass": "heap.dailylcp24",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
             "name": "daily2670",
             "request": "launch",
             "mainClass": "hash.daily2670",
