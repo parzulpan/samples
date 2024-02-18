@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "daily144",
+            "request": "launch",
+            "mainClass": "tree.daily144",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily94",
+            "request": "launch",
+            "mainClass": "tree.daily94",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily993",
+            "request": "launch",
+            "mainClass": "tree.daily993",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily2641",
+            "request": "launch",
+            "mainClass": "tree.daily2641",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
             "name": "dailylcp30",
             "request": "launch",
             "mainClass": "greedy.dailylcp30",
