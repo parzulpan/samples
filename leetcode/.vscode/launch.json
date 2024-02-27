@@ -6,10 +6,94 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "daily2846",
             "request": "launch",
             "mainClass": "untag.daily2846",
             "projectName": "leetcode_57a742cc"
+=======
+            "name": "daily144",
+            "request": "launch",
+            "mainClass": "tree.daily144",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily94",
+            "request": "launch",
+            "mainClass": "tree.daily94",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily993",
+            "request": "launch",
+            "mainClass": "tree.daily993",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily2641",
+            "request": "launch",
+            "mainClass": "tree.daily2641",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "dailylcp30",
+            "request": "launch",
+            "mainClass": "greedy.dailylcp30",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily1696",
+            "request": "launch",
+            "mainClass": "dp.daily1696",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily292",
+            "request": "launch",
+            "mainClass": "math.daily292",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily1690",
+            "request": "launch",
+            "mainClass": "greedy.daily1690",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily1686",
+            "request": "launch",
+            "mainClass": "greedy.daily1686",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "dailylcp24",
+            "request": "launch",
+            "mainClass": "heap.dailylcp24",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "daily2670",
+            "request": "launch",
+            "mainClass": "hash.daily2670",
+            "projectName": "leetcode_3989f105"
+        },
+        {
+            "type": "java",
+            "name": "TimeZoneMapBuilder",
+            "request": "launch",
+            "mainClass": "test_java.TimeZoneMapBuilder",
+            "projectName": "leetcode_3989f105"
+>>>>>>> 5daf8f56961c8e89a44583cab7613ca65b341e0d
         },
         {
             "type": "java",
