@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
+            "name": "daily2846",
+            "request": "launch",
+            "mainClass": "untag.daily2846",
+            "projectName": "leetcode_57a742cc"
+=======
             "name": "daily144",
             "request": "launch",
             "mainClass": "tree.daily144",
@@ -87,6 +93,7 @@
             "request": "launch",
             "mainClass": "test_java.TimeZoneMapBuilder",
             "projectName": "leetcode_3989f105"
+>>>>>>> 5daf8f56961c8e89a44583cab7613ca65b341e0d
         },
         {
             "type": "java",
