@@ -6,12 +6,16 @@ import java.util.List;
 
 public class daily2867 {
     public static void main(String[] args) {
+<<<<<<< HEAD
         Solution2867 solution = new Solution2867();
 
         // case1
         System.out.println(solution.countPaths(5, new int[][] { { 1, 2 }, { 1, 3 }, { 2, 4 }, { 2, 5 } }));
         // case2
         System.out.println(solution.countPaths(6, new int[][] { { 1, 2 }, { 1, 3 }, { 2, 4 }, { 3, 5 }, { 3, 6 } }));
+=======
+
+>>>>>>> 669a21beff8d6b410a62654cc21350c0c88ff777
     }
 }
 
