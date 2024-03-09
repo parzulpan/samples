@@ -18,6 +18,8 @@ class Solution2834 {
         // 找出美丽数组的最小和
         // 思路：贪心 + 数学
         // 1.
+        long m = Math.min(target / 2, n);
 
+        return (int) ((m * (m + 1) + (n - m - 1 + target * 2) * (n - m)) / 2 % 1_000_000_007);
     }
 }
