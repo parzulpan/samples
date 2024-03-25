@@ -2,6 +2,9 @@ package common;
 
 import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * Ha 数组
+ */
 public class HaArray {
     public static void main(String[] args) {
         /* 初始化数组 */
