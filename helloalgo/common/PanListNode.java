@@ -1,17 +1,20 @@
 package common;
 
-public class ListNode {
+/**
+ * Pan 链表
+ */
+public class PanListNode {
     public int val;
-    public ListNode next;
+    public PanListNode next;
 
-    public ListNode() {
+    public PanListNode() {
     }
 
-    public ListNode(int val) {
+    public PanListNode(int val) {
         this.val = val;
     }
 
-    public ListNode(int val, ListNode next) {
+    public PanListNode(int val, PanListNode next) {
         this.val = val;
         this.next = next;
     }
@@ -19,16 +22,16 @@ public class ListNode {
     /**
      * 用数组初始化一个单链表
      */
-    public static ListNode init(int[] arr) {
+    public static PanListNode init(int[] arr) {
         if (arr.length == 0) {
             return null;
         }
 
-        ListNode head = new ListNode(arr[0]);
-        ListNode current = head;
+        PanListNode head = new PanListNode(arr[0]);
+        PanListNode current = head;
 
         for (int i = 1; i < arr.length; i++) {
-            current.next = new ListNode(arr[i]);
+            current.next = new PanListNode(arr[i]);
             current = current.next;
         }
 
@@ -45,7 +48,7 @@ public class ListNode {
     /**
      * 获取下一个节点
      */
-    public ListNode getNext() {
+    public PanListNode getNext() {
         return next;
     }
 
