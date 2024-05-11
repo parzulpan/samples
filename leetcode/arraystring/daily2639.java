@@ -1,4 +1,4 @@
-package array_string;
+package arraystring;
 
 public class daily2639 {
     public static void main(String[] args) {
