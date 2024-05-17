@@ -8,7 +8,17 @@ import java.util.concurrent.TimeUnit;
 
 public class testtimezone {
     public static void main(String[] args) {
-        tz();
+        System.out.println(System.currentTimeMillis() / 1000 - 29 * 24 * 60 * 60);
+        System.out.println(System.currentTimeMillis() / 1000 - 30 * 24 * 60 * 60);
+        System.out.println();
+        System.out.println(System.currentTimeMillis() / 1000 - 59 * 24 * 60 * 60);
+        System.out.println(System.currentTimeMillis() / 1000 - 60 * 24 * 60 * 60);
+        System.out.println();
+        System.out.println(System.currentTimeMillis() / 1000 - 89 * 24 * 60 * 60);
+        System.out.println(System.currentTimeMillis() / 1000 - 90 * 24 * 60 * 60);
+        System.out.println();
+
+        // tz();
 
         // long timeMillis = System.currentTimeMillis() + 1000 * 50 * 60;
         // System.out.println("timeMillis: " + timeMillis);
