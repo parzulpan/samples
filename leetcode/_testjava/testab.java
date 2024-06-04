@@ -1,5 +1,8 @@
 package _testjava;
 
+import java.time.DayOfWeek;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.NavigableMap;
@@ -8,48 +11,60 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class testab {
     public static void main(String[] args) {
-        HashMap<String, Integer> map1 = new HashMap<>() {
-            {
-                put("a", 70);
-                put("b", 30);
-            }
-        };
-        System.out.println(simpleAb(map1, 101));
+        LocalDateTime endTime = LocalDateTime.now();
+        LocalDateTime startTime;
+        if (endTime.getDayOfWeek() == DayOfWeek.MONDAY) {
+            startTime = endTime.minusDays(7);
+        } else {
+            startTime = endTime.minusDays(7);
+        }
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
-        HashMap<String, Integer> map2 = new HashMap<>() {
-            {
-                put("b", 70);
-                put("a", 30);
-            }
-        };
-        System.out.println(simpleAb(map2, 101));
+        System.out.println(startTime.format(formatter));
+        System.out.println(endTime.format(formatter));
 
-        HashMap<String, Integer> map3 = new HashMap<>() {
-            {
-                put("a", 70);
-                put("b", 20);
-                put("c", 10);
-            }
-        };
-        System.out.println(simpleAb(map3, 101));
+        // HashMap<String, Integer> map1 = new HashMap<>() {
+        // {
+        // put("a", 70);
+        // put("b", 30);
+        // }
+        // };
+        // System.out.println(simpleAb(map1, 101));
 
-        HashMap<String, Integer> map4 = new HashMap<>() {
-            {
-                put("a", 20);
-                put("c", 10);
-                put("b", 70);
-            }
-        };
-        System.out.println(simpleAb(map4, 101));
+        // HashMap<String, Integer> map2 = new HashMap<>() {
+        // {
+        // put("b", 70);
+        // put("a", 30);
+        // }
+        // };
+        // System.out.println(simpleAb(map2, 101));
 
-        HashMap<String, Integer> map5 = new HashMap<>() {
-            {
-                put("c", 70);
-                put("a", 10);
-                put("b", 20);
-            }
-        };
-        System.out.println(simpleAb(map5, 101));
+        // HashMap<String, Integer> map3 = new HashMap<>() {
+        // {
+        // put("a", 70);
+        // put("b", 20);
+        // put("c", 10);
+        // }
+        // };
+        // System.out.println(simpleAb(map3, 101));
+
+        // HashMap<String, Integer> map4 = new HashMap<>() {
+        // {
+        // put("a", 20);
+        // put("c", 10);
+        // put("b", 70);
+        // }
+        // };
+        // System.out.println(simpleAb(map4, 101));
+
+        // HashMap<String, Integer> map5 = new HashMap<>() {
+        // {
+        // put("c", 70);
+        // put("a", 10);
+        // put("b", 20);
+        // }
+        // };
+        // System.out.println(simpleAb(map5, 101));
     }
 
     public static String simpleAb(Map<String, Integer> abInfo, int abSum) {
