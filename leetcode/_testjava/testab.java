@@ -8,6 +8,19 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class testab {
     public static void main(String[] args) {
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+        System.out.println(ThreadLocalRandom.current().nextDouble() * 100);
+
         HashMap<String, Integer> map1 = new HashMap<>() {
             {
                 put("a", 70);
